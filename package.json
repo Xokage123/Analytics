@@ -1,5 +1,5 @@
 {
-  "name": "statistics",
+  "name": "analytics",
   "version": "0.1.0",
   "homepage": "./",
   "private": true,
@@ -12,8 +12,6 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-select": "^5.4.0",
-    "react-use": "^15.3.4",
-    "react-uuid": "^1.0.2",
     "sass": "^1.35.2"
   },
   "scripts": {
@@ -48,7 +46,6 @@
     "@types/node": "^14.0.23",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^16.9.8",
-    "@types/uuid": "^8.3.0",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "babel-plugin-inline-react-svg": "^2.0.1",
