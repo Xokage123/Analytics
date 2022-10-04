@@ -1,0 +1,47 @@
+.list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+
+  &Icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 16px;
+
+    width: 58px;
+    height: 58px;
+
+    border-radius: $border-radius-m;
+
+    background-color: var(--color);
+  }
+
+  &Title {
+    color: var(--color);
+
+    padding-bottom: 4px;
+  }
+
+  &Description {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.demarcate {
+  width: 2px;
+  height: 19px;
+  margin: 0 4px;
+
+  background-color: black;
+
+  border-radius: $border-radius-xs;
+}

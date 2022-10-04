@@ -1,16 +1,18 @@
 import { NextPage } from 'next';
 import Head from 'next/head';
 
-const HomePage: NextPage = () => {
+import Analytics from 'components/analytics';
+
+const AnalyticsPage: NextPage = () => {
   return (
     <>
       <Head>
-        <title>HomePage</title>
+        <title>Analytics</title>
       </Head>
 
-      <div>HomePage</div>
+      <Analytics />
     </>
   );
 };
 
-export default HomePage;
+export default AnalyticsPage;

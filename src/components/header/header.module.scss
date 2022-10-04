@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-top: 40px;
+
+  margin-bottom: 13px;
+}
+
+.timescale {
+  &List {
+    display: flex;
+  }
+
+  &Item {
+    & + & {
+      margin-left: 40px;
+    }
+  }
+
+  &Button {
+    border-width: 0;
+
+    color: $gray-light-color;
+    background-color: inherit;
+
+    font-size: $font-size-s;
+
+    cursor: pointer;
+
+    transition: color 0.4s ease-in-out;
+
+    &:active,
+    &:focus {
+      color: $blue-normal-color;
+    }
+
+    &:not(:active):hover {
+      color: $gray-normal-color;
+    }
+  }
+}

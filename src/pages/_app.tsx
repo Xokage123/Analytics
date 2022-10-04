@@ -2,7 +2,8 @@ import { AppProps } from 'next/app';
 import Head from 'next/head';
 import { ReactNode } from 'react';
 
-import 'styles/fonts.scss';
+import Layout from 'components/layout';
+
 import 'styles/global.scss';
 
 interface AppPropsExtends extends AppProps {
@@ -19,7 +20,9 @@ const App = ({ Component, pageProps }: AppPropsExtends) => {
         />
       </Head>
 
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </>
   );
 };

@@ -1,0 +1,17 @@
+.container {
+  > :first-of-type {
+    margin-left: 8px;
+  }
+}
+
+.icon {
+  transition: transform 0.3s ease-in-out;
+
+  &Open {
+    transform: rotate(180deg);
+  }
+
+  &Close {
+    transform: rotate(0);
+  }
+}
