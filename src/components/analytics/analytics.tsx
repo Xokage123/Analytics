@@ -21,7 +21,7 @@ const Analytics: React.FC = () => {
           return (
             <li key={title} style={itemStyle}>
               <Card className={styles.item}>
-                <div className={styles.itemIcon}>
+                <div style={itemStyle} className={styles.itemIcon}>
                   <Image src={icon.src} {...icon.options} unoptimized />
                 </div>
 
